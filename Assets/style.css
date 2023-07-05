@@ -137,7 +137,7 @@ body{
 }
 @keyframes animasiShiba {
     0% {
- 
+        bottom: 250px;
     }
     50% {
         bottom: 260px;
@@ -158,7 +158,7 @@ body{
 }
 @keyframes animasiSolona {
     0% {
-   
+        bottom: 380px;
     }
     50% {
         bottom: 340px;
@@ -178,7 +178,7 @@ body{
 }
 @keyframes loops {
     0% {
-    
+        bottom: 380px;
     }
     50% {
         bottom: 400px;
@@ -222,7 +222,7 @@ body{
     }
     @keyframes animasiShibaResponsive {
         0% {
-          
+            bottom: 150px;
         }
         50% {
             bottom: 170px;
@@ -243,7 +243,7 @@ body{
     }
     @keyframes animasiSolonaResponsive {
         0% {
-        
+            bottom: 280px;
         }
         50% {
             bottom: 240px;
@@ -263,7 +263,7 @@ body{
     }
     @keyframes animasiLoopsResponsive {
         0% {
-        
+            bottom: 260px;
         }
         50% {
             bottom: 280px;
