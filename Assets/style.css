@@ -9,9 +9,40 @@ body{
 :root {
     --color-main: #7400FF;
     --white:#fff;
-    --color-main-hover: #6000d6;
+    --black: #1a0535;
+    --color-main-hover: #cacaca;
 }
-
+.btn-main {
+    background-color: var(--white);
+    color: var(--black);
+    border-radius: none;
+    width: 96px;
+    height: 38px;
+    border-radius: 5px;
+    justify-content: end;
+    margin-top: 20px;
+    border: none;
+    font-weight: 600;
+}
+.btn-main:hover {
+    opacity: 95;
+    background-color: var(--color-main-hover);
+}
+.btn-secondary {
+    border-radius: 12px;
+    border: 1px solid var(--white);
+    width: 206px;
+    height: 56px;
+    background: var(--white);
+    color: var(--black);
+    margin-top: 30px;
+    font-weight: 500;
+    
+}
+.btn-secondary:hover {
+    opacity: 95;
+    background-color: var(--color-main-hover);
+}
 .navbar .navbar-nav .nav-link {
     color: var(--white) !important;
     font-size: 16px;
@@ -27,22 +58,7 @@ body{
 .navbar-expand-lg .navbar-collapse .navbar-nav {
   padding-right: 170px;
 }
-.navbar .container .btn-main {
-    background-color: var(--color-main);
-    color: var(--white);
-    border-radius: none;
-    width: 96px;
-    height: 38px;
-    border-radius: 12px;
-    justify-content: end;
-    margin-top: 20px;
-    border: none;
-    font-weight: 600;
-}
-.navbar .container .btn-main:hover {
-    opacity: 95;
-    background-color: var(--color-main-hover);
-}
+
 .toggler {
     background:  none !important;
     border: none !important;
@@ -159,20 +175,8 @@ body{
         bottom: 380px;/* Kembali ke opaciti 100% */
     }
   }
- .btn-secondary {
-    border-radius: 12px;
-    border: 1px solid var(--color-main);
-    width: 206px;
-    height: 56px;
-    background: none;
-    color: var(--white);
-    margin-top: 30px;
-    font-weight: 500;
-}
-.btn-secondary:hover {
-    background: var(--color-main);
-   
-}
+
+
 
 /*=============== Responsive ============ */
 @media (max-width: 990px) {
