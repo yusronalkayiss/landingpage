@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background: #0B0021;
+    margin: 0;
+}
+:root {
+    --color-main: #7400FF;
+    --white:#fff;
+    --color-main-hover: #6000d6;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: var(--white) !important;
+    font-size: 16px;
+    margin-left: 56px;
+    margin-top: 20px;
+}
+.navbar .navbar-nav .nav-link:hover {
+    opacity: 80%;
+}
+.navbar-expand-lg .navbar-collapse {
+    justify-content: end;
+}
+.navbar-expand-lg .navbar-collapse .navbar-nav {
+  padding-right: 170px;
+}
+.navbar .container .btn-main {
+    background-color: var(--color-main);
+    color: var(--white);
+    border-radius: none;
+    width: 96px;
+    height: 38px;
+    border-radius: 12px;
+    justify-content: end;
+    margin-top: 20px;
+    border: none;
+    font-weight: 600;
+}
+.navbar .container .btn-main:hover {
+    opacity: 95;
+    background-color: var(--color-main-hover);
+}
+.toggler {
+    background:  none !important;
+    border: none !important;
+}
+.bi-list{
+    display: none;
+    margin-top: 15px;
+}
+.header .container h1 {
+    font-size: 52px;
+    font-weight: 700;
+}
+/* .header .container  {
+    margin-top: 120px ;
+} */
+
+.header .container  {
+    margin-top: 80px;
+    
+}
+.header .container .head-right {
+    padding-top: 50px;
+}
+.pix1 {
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    background: var(--color-main);
+    position: relative;
+    left: 220px;
+    top: 111px;
+    opacity: 70%;
+    animation-name: animasiOpaciti; /* Nama keyframes animasi */
+    animation-duration: 2s; /* Durasi animasi (misalnya 2 detik) */
+    animation-iteration-count: infinite;
+}
+@keyframes animasiOpaciti {
+    0% {
+      opacity: 1; /* Mulai dengan opaciti 100% */
+    }
+    50% {
+      opacity: 0.5; /* Animasikan ke opaciti 50% */
+    }
+    100% {
+      opacity: 1; /* Kembali ke opaciti 100% */
+    }
+  }
+.header .container h1,p {
+    color: var(--white);
+    margin-top: 30px;
+}
+.header .container .wrap {
+    color: var(--color-main);
+}
+.shiba {
+    width: 100px;
+    position: relative;
+    left: 80px;
+    bottom: 250px;
+    animation-name: animasiShiba; /* Nama keyframes animasi */
+    animation-duration: 2s; /* Durasi animasi (misalnya 2 detik) */
+    animation-iteration-count: infinite;
+}
+@keyframes animasiShiba {
+    0% {
+      /* Mulai dengan opaciti 100% */
+    }
+    50% {
+        bottom: 260px;/* Animasikan ke opaciti 50% */
+    }
+    100% {
+        bottom: 250px;/* Kembali ke opaciti 100% */
+    }
+  }
+.solona {
+    width: 100px;
+    position: relative;
+    left: 90px;
+    bottom: 380px;
+    animation-name: animasiSolona; /* Nama keyframes animasi */
+    animation-duration: 2s; /* Durasi animasi (misalnya 2 detik) */
+    animation-iteration-count: infinite;
+    
+}
+@keyframes animasiSolona {
+    0% {
+      /* Mulai dengan opaciti 100% */
+    }
+    50% {
+        bottom: 340px;/* Animasikan ke opaciti 50% */
+    }
+    100% {
+        bottom: 380px;/* Kembali ke opaciti 100% */
+    }
+  }
+.loops {
+    width: 100px;
+    position: relative;
+    left: 150px;
+    bottom: 380px;
+    animation-name: loops; /* Nama keyframes animasi */
+    animation-duration: 2s; /* Durasi animasi (misalnya 2 detik) */
+    animation-iteration-count: infinite;
+}
+@keyframes loops {
+    0% {
+      /* Mulai dengan opaciti 100% */
+    }
+    50% {
+        bottom: 400px;/* Animasikan ke opaciti 50% */
+    }
+    100% {
+        bottom: 380px;/* Kembali ke opaciti 100% */
+    }
+  }
+ .btn-secondary {
+    border-radius: 12px;
+    border: 1px solid var(--color-main);
+    width: 206px;
+    height: 56px;
+    background: none;
+    color: var(--white);
+    margin-top: 30px;
+    font-weight: 500;
+}
+.btn-secondary:hover {
+    background: var(--color-main);
+   
+}
+
+/*=============== Responsive ============ */
+@media (max-width: 990px) {
+    .navbar .navbar-nav .nav-link {
+        margin-left: 0px !important;
+    }
+    .bi-list {
+        color: var(--white);
+        font-size: 30px;
+        display: block;
+    }
+    .navbar .container .btn-main {
+      width: 100%;
+ 
+    }
+    .header .container  {
+        margin-top:  30px ;
+    } 
+    .header .container .head-right {
+        margin-top: 60px;
+    }
+    .shiba {
+        width: 80px;
+        position: relative;
+        left: 20px;
+        bottom: 150px;
+        animation-name: animasiShibaResponsive; /* Nama keyframes animasi */
+        animation-duration: 2s; /* Durasi animasi (misalnya 2 detik) */
+        animation-iteration-count: infinite;
+        
+    }
+    @keyframes animasiShibaResponsive {
+        0% {
+          /* Mulai dengan opaciti 100% */
+        }
+        50% {
+            bottom: 170px;/* Animasikan ke opaciti 50% */
+        }
+        100% {
+            bottom: 150px;/* Kembali ke opaciti 100% */
+        }
+      }
+
+    .solona {
+        width: 80px;
+        position: relative;
+        left: 20px;
+        bottom: 280px;
+        animation-name: animasiSolonaResponsive; /* Nama keyframes animasi */
+        animation-duration: 2s; /* Durasi animasi (misalnya 2 detik) */
+        animation-iteration-count: infinite;
+    }
+    @keyframes animasiSolonaResponsive {
+        0% {
+          /* Mulai dengan opaciti 100% */
+        }
+        50% {
+            bottom: 240px;/* Animasikan ke opaciti 50% */
+        }
+        100% {
+            bottom: 280px;/* Kembali ke opaciti 100% */
+        }
+      }
+    .loops {
+        width: 80px;
+        position: relative;
+        left: 30px;
+        bottom: 260px;
+        animation-name: animasiLoopsResponsive; /* Nama keyframes animasi */
+        animation-duration: 2s; /* Durasi animasi (misalnya 2 detik) */
+        animation-iteration-count: infinite;
+    }
+    @keyframes animasiLoopsResponsive {
+        0% {
+          /* Mulai dengan opaciti 100% */
+        }
+        50% {
+            bottom: 280px;/* Animasikan ke opaciti 50% */
+        }
+        100% {
+            bottom: 260px;/* Kembali ke opaciti 100% */
+        }
+      }
+ 
+}
