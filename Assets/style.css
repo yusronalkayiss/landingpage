@@ -12,7 +12,7 @@ body{
     --black: #1a0535;
     --color-main-hover: #cacaca;
 }
-.btn-main {
+.navbar .container .btn-main {
     background-color: var(--white);
     color: var(--black);
     border-radius: none;
@@ -24,11 +24,11 @@ body{
     border: none;
     font-weight: 600;
 }
-.btn-main:hover {
+.navbar .container .btn-main:hover {
     opacity: 95;
     background-color: var(--color-main-hover);
 }
-.btn-secondary {
+.header .container .btn-secondary {
     border-radius: 12px;
     border: 1px solid var(--white);
     width: 206px;
@@ -39,7 +39,7 @@ body{
     font-weight: 500;
     
 }
-.btn-secondary:hover {
+.header .container .btn-secondary:hover {
     opacity: 95;
     background-color: var(--color-main-hover);
 }
